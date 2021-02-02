@@ -22,3 +22,7 @@
 ## Question 3
 
 ![q3](assets/q3.png)
+
+## Question 4
+
+![q4](assets/q4.png)
