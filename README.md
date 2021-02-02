@@ -9,4 +9,6 @@
 | Professeur | Andrew Forward |
 | Equipe | Younes Anys (300145843) |
 
+#Diagramme ER
+
 ## Question 1
