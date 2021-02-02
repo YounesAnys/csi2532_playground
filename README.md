@@ -12,3 +12,5 @@
 # Diagramme ER
 
 ## Question 1
+
+![q1](assets/q1.png)
