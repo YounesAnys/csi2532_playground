@@ -18,3 +18,7 @@
 ## Question 2
 
 ![q2](assets/q2.png)
+
+## Question 3
+
+![q3](assets/q3.png)
