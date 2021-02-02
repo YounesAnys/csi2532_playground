@@ -30,3 +30,7 @@
 ## Question 5
 
 ![q5](assets/q5.png)
+
+## Question 6
+
+![q6](assets/q6.png)
