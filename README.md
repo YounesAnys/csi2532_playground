@@ -11,20 +11,20 @@
 
 # Diagramme Relationnels
 
-## Question 1
+## Situation 1
 
 ![q1](assets/cas1.png)
 
 
-## Question 3
+## Situation 3
 
 ![q3](assets/cas3.png)
 
 
-## Question 5
+## Situation 5
 
-![q5](assets/q5.png)
+![q5](assets/cas5.png)
 
-## Question 6
+## Situation 6
 
-![q6](assets/q6.png)
+![q6](assets/cas6.png)
