@@ -1,4 +1,4 @@
-#  Lab03
+#  Lab04
 
 ## Sommaire
 
@@ -9,23 +9,17 @@
 | Professeur | Andrew Forward |
 | Equipe | Younes Anys (300145843) |
 
-# Diagramme ER
+# Diagramme Relationnels
 
 ## Question 1
 
-![q1](assets/q1.png)
+![q1](assets/cas1.png)
 
-## Question 2
-
-![q2](assets/q2.png)
 
 ## Question 3
 
-![q3](assets/q3.png)
+![q3](assets/cas3.png)
 
-## Question 4
-
-![q4](assets/q4.png)
 
 ## Question 5
 
