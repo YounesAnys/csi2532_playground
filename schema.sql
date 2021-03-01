@@ -10,11 +10,11 @@ INSERT INTO "leaderboard_migrated".athletes
   (athlete_id, full_name, birthday, is_male)
 VALUES
   (1, 'Mohamed Hilal', '10-14-2000', true),
-  (2, 'Andrew Marc', '05-13-1998', true),
-  (3, 'Pierre Rimard', '12-05-1960', true),
+  (2, 'Andrew Marc', '05-13-2001', true),
+  (3, 'Pierre Rimard', '12-05-1958', true),
   (4, 'Yiussef Anys', '07-28-2001', false),
   (5, 'Alyssa Rose', '12-31-1999', false),
-  (6, 'Benoid Beaulieu', '10-01-1980', false);
+  (6, 'Benoid Beaulieu', '10-01-1988', false);
 
 
 CREATE TABLE "leaderboard_migrated".schema_migrations (
