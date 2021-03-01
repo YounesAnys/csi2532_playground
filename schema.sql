@@ -9,12 +9,12 @@ CREATE TABLE "leaderboard_migrated".athletes (
 INSERT INTO "leaderboard_migrated".athletes
   (athlete_id, full_name, birthday, is_male)
 VALUES
-  (1, 'Alexandre Pineau', '06-14-2000', true),
-  (2, 'Robert Naim', '05-13-1998', true),
-  (3, 'Pierre Rofail', '12-05-1960', true),
-  (4, 'CaitLin McNaughton', '07-28-2001', false),
+  (1, 'Mohamed Hilal', '10-14-2000', true),
+  (2, 'Andrew Marc', '05-13-1998', true),
+  (3, 'Pierre Rimard', '12-05-1960', true),
+  (4, 'Yiussef Anys', '07-28-2001', false),
   (5, 'Alyssa Rose', '12-31-1999', false),
-  (6, 'Michelle Beaulieu', '10-01-1980', false);
+  (6, 'Benoid Beaulieu', '10-01-1980', false);
 
 
 CREATE TABLE "leaderboard_migrated".schema_migrations (
@@ -25,8 +25,8 @@ CREATE TABLE "leaderboard_migrated".schema_migrations (
 INSERT INTO "leaderboard_migrated".schema_migrations 
     (migration, migrated_at) 
 VALUES
-    ('20210222184100-create-athletes.sql', '2021-02-22 18:41:00'),
-    ('20210222185500-create-migrations.sql', '2021-02-22 18:55:00');
+    ('20210222184100-create-athletes.sql', '2021-02-28 18:41:00'),
+    ('20210222185500-create-migrations.sql', '2021-02-28 18:55:00');
 
 
 ALTER TABLE "leaderboard_migrated".athletes
@@ -35,4 +35,4 @@ RENAME COLUMN is_male TO male_athlete;
 INSERT INTO "leaderboard_migrated".schema_migrations 
     (migration, migrated_at) 
 VALUES
-    ('20210222193500-update-athletes.sql', '2021-02-22 19:35:00'); 
+    ('20210222193500-update-athletes.sql', '2021-02-28 19:35:00'); 
