@@ -16,7 +16,7 @@ SELECT name, birthplace
 FROM artists;
 ```
 
-The output is:
+Le résultat est :
 
 ```
    name     |  birthplace
@@ -39,7 +39,7 @@ FROM artworks
 WHERE  year >1600;
 ```
 
-The output is:
+Le résultat est :
 ```
       title      |  price
 -----------------+----------
@@ -56,7 +56,7 @@ FROM artworks
 WHERE year= 2000 or  artist_name= 'Picasso';
 ```
 
-The output is:
+Le résultat est :
 ```
       title      |  type
 -----------------+--------
@@ -72,7 +72,7 @@ SELECT name, birthplace
 FROM artists,EXTRACT(YEAR FROM dateofbirth) as year 
 WHERE year >1880 and year<1930;
 ```
-The output is:
+Le résultat est :
 
 ```
   name   |  birthplace
@@ -89,7 +89,7 @@ FROM artists
 WHERE name IN ( SELECT artist_name From artworks WHERE  type='Modern' OR type='Baroque' OR type='Renaissance');
 ```
 
-The output is:
+Le résultat est :
 ```
     name    | country
 ------------+---------
@@ -107,7 +107,7 @@ FROM artworks
 ORDER BY title;
 ```
 
-The output is:
+Le résultat est :
 ```      title      | year |  type   |  price   | artist_name
 -----------------+------+---------+----------+-------------
  Blue            | 2000 | Modern  | 10000.00 | Smith
@@ -125,7 +125,7 @@ FROM customers
 WHERE id IN (SELECT customer_id FROM likeartists WHERE artist_name='Picasso');
 ```
 
-The output is:
+Le résultat est :
 ```
  id | name
 ----+-------
